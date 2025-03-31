@@ -98,7 +98,7 @@ if __name__ ==  '__main__':
         count += 1
         print(count,'/',len(test_data_loader))
         
-        LDR = data['LDR']
+        LDR = data['LDR'].float()
         target = data['target']
         scale = data['scale'].float()
         scale = torch.unsqueeze(scale,1)
