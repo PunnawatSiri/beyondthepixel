@@ -1,4 +1,4 @@
-fildataroot = dataset/calibrated64_inpaint
+dataroot = dataset/calibrated64_inpaint
 name = Luminance_linear
 mode = luminance
 tonemap_LDR = none
